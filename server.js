@@ -29,7 +29,7 @@ var articles = {
                     This is my second html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
                 </p>
                 <p title="Second para">
-                    This is my second html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.`
+                    **This is my second html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.`
     },
     articleThree : {
         title: 'Article one | Luvkush',
@@ -39,7 +39,7 @@ var articles = {
                     This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
                 </p>
                 <p title="Second para">
-                    This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
+                    $$This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
                 </p>`
     }
 };
