@@ -18,7 +18,7 @@ var articles = {
                 This is my html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
             </p>
             <p title="Read instead of mouseover, third para">
-                This is my html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
+                *This is my html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
             </p>`
     },
     'article-two' : {
