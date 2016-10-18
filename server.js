@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleOne = {
+var articles = {
+    articleOne : {
     title: 'Article one | Luvkush',
     heading: 'Coding in HTML',
     date: 'October 17,2016',
@@ -19,7 +20,30 @@ var articleOne = {
             <p title="Read instead of mouseover, third para">
                 This is my html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
             </p>`
+    },
+    articleTwo : {
+        title: 'Article one | Luvkush',
+        heading: 'Coding in HTML',
+        date: 'October 17,2016',
+        content:  `<p title="Read instead of mouseover">
+                    This is my second html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
+                </p>
+                <p title="Second para">
+                    This is my second html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.`
+    },
+    articleThree : {
+        title: 'Article one | Luvkush',
+        heading: 'Coding in HTML',
+        date: 'October 17,2016',
+        content:`  <p title="Read instead of mouseover">
+                    This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
+                </p>
+                <p title="Second para">
+                    This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
+                </p>`
+    }
 };
+    
 
 function  createTemplate (data){
     var title = data.title;
