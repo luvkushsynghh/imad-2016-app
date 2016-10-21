@@ -41,7 +41,7 @@ var articles = {
                 <p title="Second para">
                     $$This is my third html page from github via IMAD hasura interface. This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface.This is my html page from github via IMAD hasura interface. 
                 </p>`
-    }
+    },
 };
     
 
