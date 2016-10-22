@@ -8,9 +8,8 @@ var element = document.getElementById('main-text'
 element.innerHTML = 'Change the Content Here!';
 
 // Moving the image 
-var img = document.getElementById('demo'
-);
+var img = document.getElementById('demo');
 img.onclick = function()
 {
-    img.style.marginLeft('100px');
+    img.style.marginLeft = '100px';
 };
