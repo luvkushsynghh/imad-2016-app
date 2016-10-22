@@ -11,7 +11,7 @@ element.innerHTML = 'Change the Content Here!';
 var marginLeft = 0;
 var img = document.getElementById('demo');
 function moveRight() {
-    margin = marginLeft + 10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft + 'px' ;
 }
 
