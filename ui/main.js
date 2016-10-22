@@ -11,12 +11,12 @@ element.innerHTML = 'Change the Content Here!';
 var marginLeft = 0;
 var img = document.getElementById('demo');
 function moveRight() {
-    marginLeft = marginLeft + 10;
+    marginLeft = marginLeft + 1;
     img.style.marginLeft = marginLeft + 'px' ;
 }
 
 img.onclick = function()
 {
-    var interval= setInterval(moveRight,'100')
+    var interval= setInterval(moveRight,'40')
   //  img.style.marginLeft = '100px';
 };
