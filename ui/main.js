@@ -8,8 +8,15 @@ var element = document.getElementById('main-text'
 element.innerHTML = 'Change the Content Here!';
 
 // Moving the image 
+var marginLeft = 0;
 var img = document.getElementById('demo');
+function moveRight() {
+    margin = marginLeft + 10;
+    img.style.marginLeft = marginLeft + 'px' ;
+}
+
 img.onclick = function()
 {
-    img.style.marginLeft = '100px';
+    var interval= setInterval(moveRight,'100')
+  //  img.style.marginLeft = '100px';
 };
