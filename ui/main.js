@@ -12,5 +12,5 @@ var image= document.getElementById('demo'
 );
 demo.onclick = function()
 {
-    img.style.marginLeft('100px');
+    demo.style.marginLeft('100px');
 };
