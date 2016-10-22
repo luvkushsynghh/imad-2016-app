@@ -2,6 +2,6 @@ console.log('Loaded!');
 
 // Chaing the text of the main-text div
 
-var element = document.getElementById('main-text');
+var element = document.getElementById("main-text");
 
 element.InnerHTML = 'Change the Content Here!';
