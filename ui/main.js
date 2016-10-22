@@ -8,9 +8,9 @@ var element = document.getElementById('main-text'
 element.innerHTML = 'Change the Content Here!';
 
 // Moving the image 
-var image= document.getElementById('demo'
+var img = document.getElementById('demo'
 );
-demo.onclick = function()
+img.onclick = function()
 {
-    demo.style.marginLeft('100px');
+    img.style.marginLeft('100px');
 };
